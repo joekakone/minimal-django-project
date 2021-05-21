@@ -15,5 +15,5 @@ pip install -r requirements.txt
 ## Launch
 ```sh
 python3 manage.py runserver
-gunicorn app:app
+gunicorn myapp.wsgi
 ```
